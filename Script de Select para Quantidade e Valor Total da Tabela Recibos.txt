@@ -1,0 +1,6 @@
+select count(sequencia) as quantidade_de_recibos_emitidos, sum(valor) as valor_total_recibos_emitidos from recibo re
+inner join cidade ci
+on re.id_cidade = ci.id
+inner join uf
+on ci.id_uf = uf.id
+where uf.id = 16
