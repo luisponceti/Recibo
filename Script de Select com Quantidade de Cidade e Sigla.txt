@@ -1,0 +1,5 @@
+select count(cid.nome) as quant_cidade, uf.sigla from uf uf
+inner join cidade cid
+on cid.id_uf = uf.id
+group by uf.sigla
+
