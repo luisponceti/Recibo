@@ -6,7 +6,7 @@ Para a resolução, foi utilizado um banco de dados postgres hospedado no <https
 DBeaver 6.0.0 community.
 A única ferramenta utilizada que nescesita de instalação é referente ao DBeaver que não possuí nenhuma anomalia em sua instalação e pode
 ser baixada no link a seguir <https://dbeaver.io/download/>.
-Todos os comandos foram escritos e validados por mim em MySQL.
+Os comandos de create table utilizados foram feitos por Maiko Cunha, os demais foram escritos e validados por mim em MySQL.
 Para recriar em seu banco de dados siga este passo a passo:
 * Baixe ou clone o repositório.
 * Depois de clonar o repositório execute sem managment de postgres.
