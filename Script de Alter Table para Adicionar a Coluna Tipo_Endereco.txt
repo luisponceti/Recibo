@@ -1,0 +1,1 @@
+ALTER TABLE endereco ADD tipo_endereco varchar(11)
