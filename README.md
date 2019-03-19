@@ -12,6 +12,7 @@ Para recriar em seu banco de dados siga este passo a passo:
 * Depois de clonar o repositório execute sem managment de postgres.
 * Com sua DataBase devidamente criada e vazia, basta seguir a enumeração nos nomes dos arquivos (Que vão de 1 a 19)
 * Apenas copiando, colando e executando um de cada vez seu banco de dados será criado corretamente (PS: existe um arquivo chamado 'Comando para Resetar Sequencia', este comando tem como função resetar a sequencia 'identity' contida nas tabelas caso haja algum erro)
+
 "Luís Fernando C. Ponceti" ponceti_@hotmail.com
 
 
