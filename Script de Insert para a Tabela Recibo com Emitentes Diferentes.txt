@@ -1,0 +1,5 @@
+insert into recibo (id_cliente,id_emitente,id_cidade, sequencia, data,assinatura, valor)
+values (1,4,23,3,'03/19/2019', 'AnduinWrinn', 2000);
+--------------------------------------------------------------------------------------------------------------------------------
+insert into recibo (id_cliente,id_emitente,id_cidade, sequencia, data,assinatura, valor)
+values (2,7,1,4,'03/20/2019', 'VarianWrinn', 8000)
