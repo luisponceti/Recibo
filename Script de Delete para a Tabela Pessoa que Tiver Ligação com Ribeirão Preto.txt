@@ -1,0 +1,4 @@
+delete from pessoa 
+using pessoa as pes
+join endereco as ende on pes.id = ende.id_pessoa
+where ende.id_cidade = '13';
