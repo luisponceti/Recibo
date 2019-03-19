@@ -1,0 +1,22 @@
+   INSERT INTO pessoa (nome, cpf) VALUES ('Luís Fernando Chicoski Ponceti', '09855171900');
+   INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (5,1,'Rua Pará',317,84023080,'Centro Esportivo','RESIDENCIAL');
+   INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (5,1,'Rua Antonidas',740,84021031,'Sobre Loja','COMERCIAL');
+-------------------------------------------------------------------------------------------------------------------------------- 
+   INSERT INTO pessoa (nome, cpf) VALUES ('Medivh Magnus', '00917155890');	
+   INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (7,2,'Rua da Produção',713,86803678,'Sobrado','RESIDENCIAL');
+   INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (7,2,'Rua Adolfo Pedroso Silva',147,86807010,'Em frente ao posto','COMERCIAL');
+-------------------------------------------------------------------------------------------------------------------------------  
+   INSERT INTO pessoa (nome, cpf) VALUES ('Jainna Proudmore', '55108991700');	
+   INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (6,3,'Rua Alcídes Raposo da Silva',653,86935000,'Casa','RESIDENCIAL');
+   INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (6,3,'Rua Anatol Ferenko',871,86935000,'Sala Comercial','COMERCIAL');
+--------------------------------------------------------------------------------------------------------------------------------
+   --Estas pesquisas foram usadas como referência para busca e confirmação de informações e não precisam ser utilizadas    --novamente durante a execução desdes "insert's"
+  /*    select cid.id, cid.nome,uf.sigla from uf uf
+	inner join cidade cid
+	on cid.id_uf = uf.id
+	order by uf.sigla,
+	cid.nome
+       -----------------------------
+	select * from pessoa pes
+	inner join endereco ende
+	on pes.id = ende.id_pessoa*/ 
