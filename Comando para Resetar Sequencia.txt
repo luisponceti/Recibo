@@ -1,1 +1,1 @@
-ALTER SEQUENCE uf_id_seq RESTART WITH 1
+ALTER SEQUENCE <tablename>_<id>_seq RESTART WITH 1
