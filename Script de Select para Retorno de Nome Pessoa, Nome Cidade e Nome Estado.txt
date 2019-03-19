@@ -1,0 +1,24 @@
+select pes.nome as nome_pessoa, cid.nome as nome_cidade, uf.sigla as sigla_estado from pessoa pes
+inner join endereco ende
+on pes.id = ende.id_pessoa
+inner join cidade cid
+on ende.id_cidade = cid.id
+inner join uf uf
+on cid.id_uf = uf.id
+order by nome_pessoa,
+sigla_estado,
+nome_cidade
+
+--------------------------------------------------------------------------------------------------------------------------------
+/* PARA UM SELECT MAIS APROFUNDADO, TRAZENDO JUNTAMENTO COM AS INFORMAÇÕES DO SELECT ANTERIOS AS INFORMAÇÕES DE DE LOGRADOURO, NÚMERO E COMPLEMENTO UTILIZAR ESTE*/
+
+/*select pes.nome as Nome_Pessoa, cid.nome as Nome_Cidade, uf.sigla as Sigla_Estado, ende.logradouro as Nome_Rua, ende.numero, ende.complemento from pessoa pes
+inner join endereco ende
+on pes.id = ende.id_pessoa
+inner join cidade cid
+on ende.id_cidade = cid.id
+inner join uf uf
+on cid.id_uf = uf.id
+order by Nome_Pessoa,
+Sigla_Estado,
+Nome_Cidade*/
