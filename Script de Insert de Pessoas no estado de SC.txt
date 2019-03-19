@@ -1,0 +1,16 @@
+   INSERT INTO pessoa (nome, cpf) VALUES ('Varian Wrinn', '1759809001');
+   INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (1,6,'Rua 	Pará',604,89806004 ,'Empresa','COMERCIAL');
+-------------------------------------------------------------------------------------------------------------------------------- 
+   INSERT INTO pessoa (nome, cpf) VALUES ('Uther Silverlight', '95598101700');	
+   INSERT INTO endereco (id_cidade, id_pessoa, logradouro,numero,cep,complemento, tipo_endereco) VALUES (3,7,'Rua Alberto 	Wiest',570,89220570,'Loja','COMERCIAL');
+-------------------------------------------------------------------------------------------------------------------------------- 
+	--Estas pesquisas foram usadas como referência para busca e confirmação de informações e não precisam ser utilizadas    		--novamente durante a execução desdes "insert's"
+ 	 /*    select cid.id, cid.nome,uf.sigla from uf uf
+		inner join cidade cid
+		on cid.id_uf = uf.id
+		order by uf.sigla,
+		cid.nome
+       ------------------------------------------------------------
+		select * from pessoa pes
+		inner join endereco ende
+		on pes.id = ende.id_pessoa*/  
