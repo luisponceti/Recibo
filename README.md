@@ -1,4 +1,4 @@
-###### Recibo-DB1Start <h6>
+###### Recibo <h6>
 > Scripts para a criação do modelo MySQL do projeto do recibo iniciado na 3 aula do DB1Start.
 > Dentro desde repositório se encontra os arquivos .txt com comandos DDL e DML de MySQL 
 > nescessários para a resolução dos exercícios iniciados em sala no dia 18/03/2019.
